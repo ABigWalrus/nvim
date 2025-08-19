@@ -4,10 +4,14 @@ local lsps = {
     'ltex',
     'ocamllsp',
     'rust_analyzer',
-    'bash-language-server',
+    -- 'bash-language-server',
+    'clangd',
+    'cmake',
+    'vtsls',
+    'gopls'
 }
 local linters = {}
-local formatters = { 'stylua', 'shfmt', 'ocamlformat' }
+local formatters = { 'stylua', 'shfmt', 'ocamlformat', 'clang-format' }
 
 local installs = {}
 
